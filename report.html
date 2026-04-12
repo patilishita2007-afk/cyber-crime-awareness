@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Report Cyber Crime</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">🔒 <span>Cyber Crime</span> Awareness</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="crimes.html">Crimes</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="report.html" class="active">Report</a></li>
+      <li><a href="help.html">Help</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2 class="title">📌 Report an Incident</h2>
+    <p style="text-align:center; opacity:0.8;">
+      Help us combat cyber crime by reporting incidents.
+    </p>
+
+    <form onsubmit="submitReport(event)">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Phone Number" required />
+
+      <select required>
+        <option value="">Select crime type</option>
+        <option>Phishing</option>
+        <option>Online Fraud</option>
+        <option>Cyberbullying</option>
+        <option>Identity Theft</option>
+        <option>Ransomware</option>
+        <option>Social Engineering</option>
+      </select>
+
+      <textarea placeholder="Provide detailed information about the incident..." required></textarea>
+
+      <button type="submit">Submit Report</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Cyber Crime Awareness | Report & Stay Safe
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
