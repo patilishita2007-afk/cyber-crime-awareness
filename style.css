@@ -1,13 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 2;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
 body {
   background: #0b0f17;
-  color: white;
+  color: black;
 }
 
 /* Navbar */
